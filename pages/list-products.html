@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de productos</title>
+    <!-- LINK A LIBRERIA FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- LINK MI CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- LINK FAVICON -->
+    <link rel="icon" type="image/png" href="/assets/images/logos/icon.png">
+</head>
+
+<body>
+    <!-- ?==================== #HEADER ==================== -->
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="container-nav">
+                <img class="logo" src="/assets/images/logos/logo-color.png" alt="logo de marca">
+                <label class="icon-burger" for="check-menu"><i class="fa-solid fa-bars"></i></label>
+                <input class="nav-checkbox" type="checkbox" id="check-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="/index.html">INICIO</a></li>
+                    <li class="nav-item"><a href="/pages/about.html">NOSOTROS</a></li>
+                    <li class="nav-item"><a href="/pages/registro.html">REGISTRO</a></li>
+                    <li class="nav-item"><a href="/pages/contact.html">CONTACTO</a></li>
+                    <li class="nav-item"><a href="/pages/list-products.html">PRODUCTOS</a></li>
+                    <div class="user-data">
+                        <img class="user-img" src="/assets/images/profile.png" alt="imagen del usuario">
+                        <p class="user-name">John Doe</p>
+                    </div>
+                </ul>
+            </div>
+            </div>
+            <div class="nav-cart section-header">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="banner-page banner-list-products">
+        <div class="main-banner-page">
+            <div class="text-banner-page">
+                <h1>Lista de Productos</h1>
+                <div class="breadcrumb">
+                    <p><a href="/index.html">Inicio</a></p>
+                    <p>/</p>
+                    <P>Lista de Productos</P>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-container container-table">
+        <div class="main-admin-product">
+            <h2>Listado de productos</h2>
+            <div class="table-container">
+                <table class="tb-product">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Producto</th>
+                            <th>Descripción</th>
+                            <th>Fecha de Ingreso</th>
+                            <th>Precio</th>
+                            <th>Acción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="td-image">
+                                <img src="/assets/images/products/mesa-brooklyn.jpg" alt="" class="img-table">
+                            </td>
+                            <td class="td-product">Mesa Brooklyn</td>
+                            <td class="td-description">Mesa de arrime redonda, disponible en una variedad de colores
+                                vibrantes, añade encanto y versatilidad a cualquier espacio. Su diseño elegante y
+                                compacto permite destacar la decoración, creando ambientes acogedores y modernos.</td>
+                            <td>10/05/2022</td>
+                            <td class="td-price">$ 249000</td>
+                            <td class="td-action">
+                                <button class="bt-edit"><i class="fa-regular fa-pen-to-square"></i></button>
+                                <button class="bt-remove"><i class="fa-regular fa-trash-can"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-image">
+                                <img src="/assets/images/products/silla-chicago.jpg" alt="" class="img-table">
+                            </td>
+                            <td class="td-product">Silla Chicago</td>
+                            <td class="td-description">Silla de madera combina elegancia y simplicidad, disponible en
+                                diversos colores. Perfecta para mesas de comedor, su diseño atemporal y confort aseguran
+                                un ambiente acogedor y estilizado en tu hogar.</td>
+                            <td>18/06/2023</td>
+                            <td class="td-price">$ 37.790</td>
+                            <td class="td-action">
+                                <button class="bt-edit"><i class="fa-regular fa-pen-to-square"></i></button>
+                                <button class="bt-remove"><i class="fa-regular fa-trash-can"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-image">
+                                <img src="/assets/images/products/mesa-de-luz-rustic.jpg" alt="" class="img-table">
+                            </td>
+                            <td class="td-product">Mesa de luz Rustic</td>
+                            <td class="td-description">Mesa de luz, elaborada con exquisita madera de paraíso, fusiona
+                                la calidad artesanal con la elegancia natural. Con líneas refinadas y funcionalidad,
+                                aporta calidez y estilo a cualquier dormitorio.</td>
+                            <td>02/05/2023</td>
+                            <td class="td-price">$ 149.990</td>
+                            <td class="td-action">
+                                <button class="bt-edit"><i class="fa-regular fa-pen-to-square"></i></button>
+                                <button class="bt-remove"><i class="fa-regular fa-trash-can"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-image">
+                                <img src="/assets/images/products/mesa-akira.jpg" alt="" class="img-table">
+                            </td>
+                            <td class="td-product">Mesa Akira</td>
+                            <td class="td-description">Mesa de arrime redonda, disponible en una variedad de colores
+                                vibrantes, añade encanto y versatilidad a cualquier espacio. Su diseño elegante y
+                                compacto permite destacar la decoración, creando ambientes acogedores y modernos.</td>
+                            <td>24/02/2023</td>
+                            <td class="td-price">$ 86.400</td>
+                            <td class="td-action">
+                                <button class="bt-edit"><i class="fa-regular fa-pen-to-square"></i></button>
+                                <button class="bt-remove"><i class="fa-regular fa-trash-can"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-image">
+                                <img src="/assets/images/products/mesa-ratona-mick.jpg" alt="" class="img-table">
+                            </td>
+                            <td class="td-product">Mesa ratona Mick</td>
+                            <td class="td-description">Mesa ratona de madera, disponible en una paleta de colores
+                                vibrantes, aporta un toque moderno y funcional a tu sala de estar. Su diseño versátil
+                                complementa el ambiente, creando un espacio acogedor y contemporáneo.</td>
+                            <td>10/04/2023</td>
+                            <td class="td-price">$ 125.990</td>
+                            <td class="td-action">
+                                <button class="bt-edit"><i class="fa-regular fa-pen-to-square"></i></button>
+                                <button class="bt-remove"><i class="fa-regular fa-trash-can"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-image">
+                                <img src="/assets/images/products/canasto-gambia.jpg" alt="" class="img-table">
+                            </td>
+                            <td class="td-product">Canasto Gambia</td>
+                            <td class="td-description">Canasto contenedor bicolor, hecho con caña silvestre y cinta
+                                plástica, combina estilo y funcionalidad. Ideal para organizar diversos objetos, añade
+                                un toque natural y moderno a tu espacio, mezclando materiales de forma armoniosa.</td>
+                            <td>18/03/2023</td>
+                            <td class="td-price">$ 28.000</td>
+                            <td class="td-action">
+                                <button class="bt-edit"><i class="fa-regular fa-pen-to-square"></i></button>
+                                <button class="bt-remove"><i class="fa-regular fa-trash-can"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-image">
+                                <img src="/assets/images/products/vela-goudy.jpg" alt="" class="img-table">
+                            </td>
+                            <td class="td-product">Vela Goudy</td>
+                            <td class="td-description">Vela en elegante envase de vidrio negro mate, coronado con tapa
+                                dorada, es un lujo para los sentidos. Disfruta de una atmósfera sofisticada con su
+                                fragancia envolvente y diseño cautivador.</td>
+                            <td>20/10/2023</td>
+                            <td class="td-price">$ 16.900</td>
+                            <td class="td-action">
+                                <button class="bt-edit"><i class="fa-regular fa-pen-to-square"></i></button>
+                                <button class="bt-remove"><i class="fa-regular fa-trash-can"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-image">
+                                <img src="/assets/images/products/velador-baltimore.jpg" alt="" class="img-table">
+                            </td>
+                            <td class="td-product">Velador Baltimmore</td>
+                            <td class="td-description">Lámpara de mesa de media esfera, con un diseño elegante
+                                disponible en varios colores, añade un toque de modernidad y estilo a cualquier espacio.
+                                Ilumina con distinción y personaliza tu ambiente.</td>
+                            <td>14/12/2023</td>
+                            <td class="td-price">$ 45.000</td>
+                            <td class="td-action">
+                                <button class="bt-edit"><i class="fa-regular fa-pen-to-square"></i></button>
+                                <button class="bt-remove"><i class="fa-regular fa-trash-can"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- ?==================== #FOOTER ==================== -->
+    <footer class="main-footer">
+        <div class="footer">
+            <section class="footer-section">
+                <div class="footer-contact">
+                    <div class="redes">
+                        <h3 class="footer-tittle">Seguinos en:</h3>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram icon-redes"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f icon-redes"></i></a>
+                        <a href="https://ar.linkedin.com/"><i class="fa-brands fa-linkedin-in icon-redes"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3 class="footer-tittle">Contactanos</h3>
+                    <p><i class="fa-solid fa-location-dot icon-contact"></i>San Martín 658, Quilmes.</p>
+                    <p><i class="fa-solid fa-phone icon-contact"></i>+54 9 11 6277 1599</p>
+                    <p><i class="fa-solid fa-envelope icon-contact"></i>muebles@hola.com</p>
+                </div>
+            </section>
+            <section class="footer-section">
+                <img class="logo-footer" src="/assets/images/logos/logo-color.png" alt="">
+                <h3 class="footer-tittle">Menu</h3>
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="pages/about.html" target="_blank">Nosotros</a></li>
+                        <li><a href="pages/registro" target="_blank">Registro</a></li>
+                        <li><a href="pages/contact.html" target="_blank">Contacto</a></li>
+                        <li><a href="pages/list-products.html" target="_blank">Productos</a></li>
+                </div>
+            </section>
+            <section class="footer-section">
+                <h3 class="footer-tittle">Newsletters</h3>
+                <p>Suscribete a nuestro newsletters para recibir las mejores promociones</p>
+                <div class="form-news">
+                    <form action="#">
+                        <input type="email" name="correo" placeholder="Correo electronico">
+                        <button class="btn-principal">Suscribirme</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>

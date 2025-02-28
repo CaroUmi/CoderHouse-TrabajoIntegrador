@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- LINK FAVICON -->
+    <link rel="icon" type="image/png" href="/assets/images/logos/icon.png">
+</head>
+
+<body>
+    <!-- ?==================== #HEADER ==================== -->
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="container-nav">
+                <img class="logo" src="/assets/images/logos/logo-color.png" alt="logo de marca">
+                <label class="icon-burger" for="check-menu"><i class="fa-solid fa-bars"></i></label>
+                <input class="nav-checkbox" type="checkbox" id="check-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="/index.html">INICIO</a></li>
+                    <li class="nav-item"><a href="/pages/about.html">NOSOTROS</a></li>
+                    <li class="nav-item"><a href="/pages/registro.html">REGISTRO</a></li>
+                    <li class="nav-item"><a href="/pages/contact.html">CONTACTO</a></li>
+                    <li class="nav-item"><a href="/pages/list-products.html">PRODUCTOS</a></li>
+                    <div class="user-data">
+                        <img class="user-img" src="/assets/images/profile.png" alt="imagen del usuario">
+                        <p class="user-name">John Doe</p>
+                    </div>
+                </ul>
+            </div>
+            </div>
+            <div class="nav-cart section-header">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="banner-page banner-registro">
+        <div class="main-banner-page">
+            <div class="text-banner-page">
+                <h1>Registro</h1>
+                <div class="breadcrumb">
+                    <p><a href="/index.html">Inicio</a></p>
+                    <p>/</p>
+                    <P>Registro</P>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-container">
+        <div class="main-registro">
+            <h2>Registro de usuario</h2>
+            <form action="" class="user-form">
+                <div class="input-group">
+                    <label for="fullname">Nombre completo</label>
+                    <input type="text" name="nombreCompleto" id="fullname" minlength="5" maxlength="160"
+                        placeholder="John Doe" required>
+                </div>
+                <div class="input-group">
+                    <label for="correo">Correo Electronico</label>
+                    <input type="email" name="correo" id="correo" maxlength="160" placeholder="correo@hola.com"
+                        required>
+                </div>
+                <div class="input-group">
+                    <label for="pass">Contraseña</label>
+                    <input type="password" name="pass" id="pass" minlength="6" maxlength="160" placeholder="******"
+                        required>
+                </div>
+                <div class="input-group">
+                    <label for="pass-repeat">Repetir Contraseña</label>
+                    <input type="password" name="pass-repeat" id="pass-repeat" minlength="6" maxlength="160"
+                        placeholder="******" required>
+                </div>
+                <div class="input-group">
+                    <label for="fecha-nac">Fecha de nacimiento</label>
+                    <input type="date" name="fecha-nac" id="fecha-nac" required>
+                </div>
+                <div class="input-group option-provincia">
+                    <label for="provincia">Lugar de recidencia</label>
+                    <select name="provincia" id="provincia">
+                        <option value="BA">Buenos Aires</option>
+                        <option value="C">Catamarca</option>
+                        <option value="CABA">Ciudad Autonoma de Bs As</option>
+                        <option value="Cba">Córdoba</option>
+                        <option value="Cho">Chaco</option>
+                        <option value="Cht">Chubut</option>
+                        <option value="Cts">Corrientes</option>
+                        <option value="ER">Entre Rios</option>
+                        <option value="F">Formosa</option>
+                        <option value="J">Jujuy</option>
+                        <option value="LP">La Pampa</option>
+                        <option value="LR">La Rioja</option>
+                        <option value="Mza">Mendoza</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <button class="form-btn btn-principal" type="submit">Registar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- ?==================== #FOOTER ==================== -->
+    <footer class="main-footer">
+        <div class="footer">
+            <section class="footer-section">
+                <div class="footer-contact">
+                    <div class="redes">
+                        <h3 class="footer-tittle">Seguinos en:</h3>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram icon-redes"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f icon-redes"></i></a>
+                        <a href="https://ar.linkedin.com/"><i class="fa-brands fa-linkedin-in icon-redes"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3 class="footer-tittle">Contactanos</h3>
+                    <p><i class="fa-solid fa-location-dot icon-contact"></i>San Martín 658, Quilmes.</p>
+                    <p><i class="fa-solid fa-phone icon-contact"></i>+54 9 11 6277 1599</p>
+                    <p><i class="fa-solid fa-envelope icon-contact"></i>muebles@hola.com</p>
+                </div>
+            </section>
+            <section class="footer-section">
+                <img class="logo-footer" src="/assets/images/logos/logo-color.png" alt="">
+                <h3 class="footer-tittle">Menu</h3>
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="pages/about.html" target="_blank">Nosotros</a></li>
+                        <li><a href="pages/registro" target="_blank">Registro</a></li>
+                        <li><a href="pages/contact.html" target="_blank">Contacto</a></li>
+                        <li><a href="pages/list-products.html" target="_blank">Productos</a></li>
+                </div>
+            </section>
+            <section class="footer-section">
+                <h3 class="footer-tittle">Newsletters</h3>
+                <p>Suscribete a nuestro newsletters para recibir las mejores promociones</p>
+                <div class="form-news">
+                    <form action="#">
+                        <input type="email" name="correo" placeholder="Correo electronico">
+                        <button class="btn-principal">Suscribirme</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
