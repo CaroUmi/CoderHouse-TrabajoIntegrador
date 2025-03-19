@@ -19,7 +19,10 @@
   <link rel="stylesheet" href="/css/styles.css">
   <!-- LINK FAVICON -->
   <link rel="icon" type="image/png" href="/assets/images/logos/icon.png">
+  <!-- SCRIPT JS -->
+  <script src="/js/script.js" defer></script>
 </head>
+
 <body>
   <!-- ?==================== #HEADER ==================== -->
   <header class="main-header">
@@ -42,7 +45,26 @@
       </div>
       </div>
       <div class="nav-cart section-header">
-        <i class="fa-solid fa-cart-shopping"></i>
+        <div id="btn-cart" class="cart-quantity">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span id="quantity-items">0</span>
+        </div>
+
+        <div id="cart" class="cart close">
+          <div class="header-cart">
+            <h5>Mi Compra</h5>
+            <button class="close-cart"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div id="body-cart" class="body-cart">
+
+          </div>
+          <div id="footer-cart" class="footer-cart">
+            <div id="total-cart" class="cart-total">
+              Total
+            </div>
+            <Button id="checkout" class="btn-principal btn-cart">FINALIZAR COMPRA</Button>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
@@ -98,8 +120,8 @@
   <main class="main-container">
     <h2 class="title-main">Productos destacados</h2>
     <section class="products">
-      <div class="card-container">
-        <article class="card">
+      <div id="card-container" class="card-container">
+        <!-- <article class="card">
           <div class="card-main">
             <a href="/pages/single-product.html" target="_blank">
               <img class="card-img" src="/assets/images/products/mesa-akira.jpg" target="_blank" alt="imgen de silla">
@@ -394,7 +416,7 @@
               </div>
             </div>
           </div>
-        </article>
+        </article> -->
       </div>
     </section>
     <section class="services-container">
@@ -465,4 +487,5 @@
     </div>
   </footer>
 </body>
+
 </html>
