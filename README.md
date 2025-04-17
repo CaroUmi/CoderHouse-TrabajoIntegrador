@@ -1,6 +1,6 @@
 # Proyecto Ecommerce
 
-<p> ** Propuesta de proyecto de sitio web: ** ecommerce de venta de muebles y artículos de decoración para el hogar.</p>
+<p>Propuesta de proyecto de sitio web: ecommerce de venta de muebles y artículos de decoración para el hogar.</p>
 <p>La propuesta de diseño del ecommerce es crear una página web dedicada a la venta de muebles y artículos de decoración, con el objetivo de crear una plataforma que no solo de valor y calidad a los productos, sino que también brinde una experiencia de usuario excepcional.</p>
 
 ### Diseño Minimalista y Sofisticado<p>
