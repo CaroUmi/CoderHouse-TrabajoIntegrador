@@ -71,3 +71,16 @@ Este diseño no solo es visualmente atractivo, sino que también garantiza una e
 ![color-texto-oscuro.png](https://i.postimg.cc/3JMtx3Gw/color-texto-oscuro.png)
 ###### - Color Texto Claro
 ![color-texto-claro.png](https://i.postimg.cc/kGSwvp09/color-texto-claro.png)
+
+MockAPI es una herramienta en línea que permite crear APIs simuladas de manera rápida y sencilla. Es especialmente útil para desarrolladores que necesitan probar aplicaciones sin depender de un backend real.
+🔹 ¿Cómo funciona?
+MockAPI te permite definir recursos como users, products o cualquier entidad que necesites en tu aplicación. Cada recurso se representa como una colección de datos en formato JSON, accesible a través de endpoints REST.
+✅ Características principales:
+- Creación automática de endpoints.
+- Soporte para métodos HTTP (GET, POST, PUT, DELETE).
+- Generación de datos simulados para pruebas.
+- Filtrado y paginación de información.
+- Integración sencilla con cualquier aplicación frontend o backend.
+
+
+
