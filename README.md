@@ -88,23 +88,23 @@ Este diseño no solo es visualmente atractivo, sino que también garantiza una e
 
 ####Métodos y endpints:
 
-##### - Obtener todos los productos
+#####- Obtener todos los productos
 GET
 /products
 
-##### - Obtener un producto basado en el id de producto
+#####- Obtener un producto basado en el id de producto
 GET
 /products/:id
 
-##### - Inserta un nuevo producto
+#####- Inserta un nuevo producto
 POST
 /products
 
-##### - Actualiza datos de un producto ya cargado
+#####- Actualiza datos de un producto ya cargado
 PUT
 /products/:id
 
-##### - Elimina un producto
+#####- Elimina un producto
 DELETE
 /products/:id
 
