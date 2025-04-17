@@ -19,9 +19,6 @@
 }
 
 /*  ?==================== #ESTILOS GENERALES ====================  */
-/* html {
-	font-size: 13px;
-} */
 
 * {
 	margin: 0;
@@ -204,11 +201,11 @@ input:focus {
 
 	.cart-quantity {
 
-		
 		i {
 			font-size: 1.2rem;
 			color: var(--color-p-oscuro);
 			margin-left: 1rem;
+
 			&:hover {
 				cursor: pointer;
 			}
@@ -228,13 +225,12 @@ input:focus {
 			height: 1rem;
 			border-radius: 50%;
 			background-color: red;
+
 			&:hover {
 				cursor: pointer;
 			}
 		}
 	}
-
-
 }
 
 /* ESTILOS DE CARRITO */
@@ -263,11 +259,6 @@ input:focus {
 			gap: .5rem;
 			text-align: center;
 			align-items: center;
-
-			/* display: flex;
-			align-items: center;
-			justify-content: space-between;
-			gap: 1rem; */
 			border-bottom: 1px solid var(--color-beige);
 			padding: .5rem 0;
 
@@ -542,8 +533,6 @@ input:focus {
 .footer-contact {
 	padding: 0.5rem 0;
 
-
-
 	.icon-redes:hover {
 		color: var(--color-rosa);
 	}
@@ -708,7 +697,6 @@ input:focus {
 				.start {
 					color: var(--color-rosa);
 				}
-
 			}
 
 			.price {
@@ -1036,15 +1024,43 @@ input:focus {
 				border-radius: 100px;
 			}
 		}
-
 	}
 }
 
 /* ?==================== #PAGE LISTA DE PRODUCT ====================  */
+.main {
+	max-width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+
+	.form-contact {
+
+		.input-group {
+			margin-top: .8rem;
+		}
+
+		.input-category {
+			label {
+				margin-right: .8rem;
+			}
+
+			select {
+				width: 50%;
+				padding: .5rem 0;
+			}
+		}
+
+		.input-descrition {
+			display: flex;
+			gap: .8rem
+		}
+	}
+}
+
 .container-table {
 	max-width: 1080px;
 	width: 100vw;
-
 }
 
 .main-admin-product {
@@ -1053,11 +1069,19 @@ input:focus {
 	margin: 2rem;
 	text-align: center;
 	overflow: hidden;
-
 }
 
 .table-container {
 	overflow-x: scroll;
+
+	.search {
+		display: flex;
+
+		.product-search {
+			text-align: start;
+			flex: 1;
+		}
+	}
 }
 
 .tb-product {
@@ -1206,7 +1230,6 @@ input:focus {
 
 		.footer-section {
 			flex: 1;
-
 		}
 	}
 
@@ -1232,6 +1255,14 @@ input:focus {
 	}
 
 	/* ?==================== #PAGE LISTA DE PRODUCT pantallas grandes ====================  */
+	.main {
+		flex-direction: row;
+	}
+
+	.container-form {
+		margin: 2rem;
+	}
+
 	.tb-product td {
 		font-size: 14px;
 	}

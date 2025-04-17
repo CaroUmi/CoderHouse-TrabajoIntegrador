@@ -91,7 +91,7 @@ function renderProducts(products) {
   products.forEach((product) => {
 
     //formatea fecha
-    const fecha = new Date (product.createdAt);
+    const fecha = new Date(product.createdAt);
     const formatDate = fecha.toLocaleDateString('es-AR', {
       day: '2-digit',
       month: '2-digit',
@@ -154,17 +154,17 @@ function loadLocalStorage() {
 
 let stateCart = 0;
 // MOSTRAR O OCULTAR CARRITO
-  openCartHTML.addEventListener('click', () => {
-    if(stateCart === 0) {
-      stateCart = 1;
-      cartHTML.classList.add('open-cart');
-      cartHTML.classList.remove('close-cart')
-    } else {
-      cartHTML.classList.remove('open-cart');
-      cartHTML.classList.add('close-cart')
-      stateCart = 0;
-    }
-  })
+openCartHTML.addEventListener('click', () => {
+  if (stateCart === 0) {
+    stateCart = 1;
+    cartHTML.classList.add('open-cart');
+    cartHTML.classList.remove('close-cart')
+  } else {
+    cartHTML.classList.remove('open-cart');
+    cartHTML.classList.add('close-cart')
+    stateCart = 0;
+  }
+})
 
 // FUNCION QUE ESCUCHA BOTONES Y AGREGA PRODUCTO AL ARRAY CART
 function addCartProduct() {
