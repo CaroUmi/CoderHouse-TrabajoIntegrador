@@ -79,32 +79,32 @@ Este diseño no solo es visualmente atractivo, sino que también garantiza una e
 <p>MockAPI es una herramienta en línea que permite crear APIs simuladas de manera rápida y sencilla. Es especialmente útil para desarrolladores que necesitan probar aplicaciones sin depender de un backend real.</p>
 <p>MockAPI te permite definir recursos como users, products o cualquier entidad que necesites en tu aplicación. Cada recurso se representa como una colección de datos en formato JSON, accesible a través de endpoints REST.</p>
 
- ####Características principales:
+ #### Características principales:
 - Creación automática de endpoints.
 - Soporte para métodos HTTP (GET, POST, PUT, DELETE).
 - Generación de datos simulados para pruebas.
 - Filtrado y paginación de información.
 - Integración sencilla con cualquier aplicación frontend o backend.
 
-####Métodos y endpints:
+#### Métodos y endpints:
 
-#####- Obtener todos los productos
+##### - Obtener todos los productos
 GET
 /products
 
-#####- Obtener un producto basado en el id de producto
+##### - Obtener un producto basado en el id de producto
 GET
 /products/:id
 
-#####- Inserta un nuevo producto
+##### - Inserta un nuevo producto
 POST
 /products
 
-#####- Actualiza datos de un producto ya cargado
+##### - Actualiza datos de un producto ya cargado
 PUT
 /products/:id
 
-#####- Elimina un producto
+##### - Elimina un producto
 DELETE
 /products/:id
 
